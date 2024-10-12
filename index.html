@@ -3,41 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MYCODE Feedback</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <center><header>
-        <div class="logo">
-            <h2>MYCODE Feedback.</h2>
-        </div>
-        <nav class="nav-links">
-            <a href="#">Home</a>
-            <a href="#SERVICES">Services</a>
-            <a href="#about">About</a>
-            <a href="Store.html">Store</a>
-        </nav>
-    </header></center>
+    <center>
+        <header>
+            <div class="logo">
+                <h2>MYCODE Feedback.</h2>
+            </div>
+            <nav class="nav-links">
+                <a href="#">Home</a>
+                <a href="#SERVICES">Services</a>
+                <a href="#about">About</a>
+                <a href="Store.html">Store</a>
+            </nav>
+        </header>
+    </center>
+
     <section class="get-in-touch">
         <img src="a_f74ff11aacb1c3bef5e18351a8c0adcc.gif">
         <div class="contact">
             <h1 class="title">Feedback About Us</h1>
-            <form class="contact-form row">
-            <div class="form-field col x-50">
-                <input id="name" class="input-text js-input" type="text" required>
-                <label class="label" for="name">الاسم</label>
-            </div>
-            <div class="form-field col x-50">
-                <input id="email" class="input-text js-input" type="email" required>
-                <label class="label" for="email">نوع المنتج</label>
-            </div>
-            <div class="form-field col x-100">
-                <input id="message" class="input-text js-input" type="text" required>
-                <label class="label" for="message">تقييمك لنا</label>
-            </div>
-            <div class="form-field_col_x-100_align-center">
-                <button onClick="message()">Send Message</button>
-            </div>
+            <form id="contact-form" class="contact-form row">
+                <div class="form-field col x-50">
+                    <input id="name" class="input-text js-input" type="text" required>
+                    <label class="label" for="name">الاسم</label>
+                </div>
+                <div class="form-field col x-50">
+                    <input id="email" class="input-text js-input" type="text" required>
+                    <label class="label" for="email">نوع المنتج</label>
+                </div>
+                <div class="form-field col x-100">
+                    <input id="message" class="input-text js-input" type="text" required>
+                    <label class="label" for="message">تقييمك لنا</label>
+                </div>
+                <div class="form-field col x-100 align-center">
+                    <button type="button" onClick="sendMessage()">Send Message</button>
+                </div>
             </form>
         </div>
      </section>
@@ -48,6 +51,6 @@
         </div>
     </footer>
 
-    <script src="obfuscated.js"></script>
+    <script src="obfuscated (1).js"></script>
 </body>
 </html>
